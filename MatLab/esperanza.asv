@@ -1,0 +1,12 @@
+function y = esperanza(x)
+    y=0;
+    for z=x
+      y=y+z;  
+    end
+    y=y/length(x);
+end
+
+function z=covarianza(x,y)
+    z=0;
+    for 
+end
