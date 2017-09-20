@@ -2,7 +2,7 @@
 
 
 function z=pearson(x,y)
-    z=covarianza(x,y)/[varianza(x)*varianza(y)];
+    z=covarianza(x,y)/[sqrt(varianza(x))*sqrt(varianza(y))];
 end
 
 function z=varianza(x)
