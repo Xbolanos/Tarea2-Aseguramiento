@@ -36,3 +36,4 @@ end
 %metricas del punto 1 
 %construccion de la espec de reqs 
 
+especReq = tReqs/(tAuditoriaDis + tAuditoriaImp + tDisenio)
